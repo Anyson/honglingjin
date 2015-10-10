@@ -1,0 +1,10 @@
+PODS:
+  - SDCAutoLayout (2.0.3)
+
+DEPENDENCIES:
+  - SDCAutoLayout (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  SDCAutoLayout: e6885bb39ab8e2ec2ff84d158f38035f025f7420
+
+COCOAPODS: 0.39.0
