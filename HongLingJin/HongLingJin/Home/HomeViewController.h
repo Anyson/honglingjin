@@ -6,8 +6,8 @@
 //  Copyright © 2015年 Anyson Chan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ANYViewController.h"
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : ANYViewController
 
 @end

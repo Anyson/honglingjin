@@ -4,4 +4,5 @@ platform :ios, '8.0'
 # use_frameworks!
 
 pod 'SDCAutoLayout', '~> 2.0.3'
+pod 'FDFullscreenPopGesture', '1.1'
 

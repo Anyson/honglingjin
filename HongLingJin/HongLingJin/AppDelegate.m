@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import <UINavigationController+FDFullscreenPopGesture.h>
 
 @interface AppDelegate ()
 
@@ -18,9 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[HomeViewController alloc] init]];
-    nav.navigationBarHidden = YES;
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.opaque = YES;

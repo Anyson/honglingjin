@@ -8,6 +8,8 @@
 
 #import "HomeViewController.h"
 #import "HomeView.h"
+#import "ShoppingViewController.h"
+#import <UINavigationController+FDFullscreenPopGesture.h>
 
 @interface HomeViewController ()<HomeViewDelegate>
 
@@ -24,10 +26,13 @@
     [self.view addSubview:homeView];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     [self setupSubviews];
 }
 
@@ -48,7 +53,7 @@
 
 #pragma mark - HomeView delegate
 - (void)homeViewShopping {
-    
+    [self.navigationController pushViewController:[[ShoppingViewController alloc] init] animated:YES];
 }
 
 - (void)homeViewCoupon {

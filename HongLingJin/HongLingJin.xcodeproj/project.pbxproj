@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1648119F1BC930C80063E237 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 1648119E1BC930C80063E237 /* Common.m */; settings = {ASSET_TAGS = (); }; };
 		164811A31BC963530063E237 /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 164811A21BC963530063E237 /* ShoppingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		164811A61BC96B670063E237 /* ANYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 164811A51BC96B670063E237 /* ANYViewController.m */; settings = {ASSET_TAGS = (); }; };
 		16EB16CE1BC8336000E78944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB16CD1BC8336000E78944 /* main.m */; };
 		16EB16D11BC8336000E78944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB16D01BC8336000E78944 /* AppDelegate.m */; };
 		16EB16D91BC8336000E78944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EB16D81BC8336000E78944 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		16EB17171BC90E4600E78944 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB17161BC90E4600E78944 /* Utilities.m */; settings = {ASSET_TAGS = (); }; };
 		16EB17181BC90E4600E78944 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB17161BC90E4600E78944 /* Utilities.m */; settings = {ASSET_TAGS = (); }; };
 		16EB17191BC90E4600E78944 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB17161BC90E4600E78944 /* Utilities.m */; settings = {ASSET_TAGS = (); }; };
+		16EBAB6F1BCA988F0091DC8C /* ShoppingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EBAB6E1BCA988F0091DC8C /* ShoppingTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		2B5892FCE753E9DB4F125C71 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E269FF006951221DB179F4B0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		1648119E1BC930C80063E237 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		164811A11BC963530063E237 /* ShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
 		164811A21BC963530063E237 /* ShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
+		164811A41BC96B670063E237 /* ANYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANYViewController.h; sourceTree = "<group>"; };
+		164811A51BC96B670063E237 /* ANYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANYViewController.m; sourceTree = "<group>"; };
 		16EB16C91BC8336000E78944 /* HongLingJin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HongLingJin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EB16CD1BC8336000E78944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16EB16CF1BC8336000E78944 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 		16EB17151BC90E4600E78944 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		16EB17161BC90E4600E78944 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		16EB171A1BC90F1C00E78944 /* honglingjin-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "honglingjin-prefix.pch"; sourceTree = "<group>"; };
+		16EBAB6D1BCA988F0091DC8C /* ShoppingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingTableViewCell.h; sourceTree = "<group>"; };
+		16EBAB6E1BCA988F0091DC8C /* ShoppingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingTableViewCell.m; sourceTree = "<group>"; };
 		BD9D77AC5C600E9990D97A28 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E269FF006951221DB179F4B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +110,8 @@
 			children = (
 				1648119D1BC930C80063E237 /* Common.h */,
 				1648119E1BC930C80063E237 /* Common.m */,
+				164811A41BC96B670063E237 /* ANYViewController.h */,
+				164811A51BC96B670063E237 /* ANYViewController.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -113,6 +121,8 @@
 			children = (
 				164811A11BC963530063E237 /* ShoppingViewController.h */,
 				164811A21BC963530063E237 /* ShoppingViewController.m */,
+				16EBAB6D1BCA988F0091DC8C /* ShoppingTableViewCell.h */,
+				16EBAB6E1BCA988F0091DC8C /* ShoppingTableViewCell.m */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";
@@ -400,10 +410,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1648119F1BC930C80063E237 /* Common.m in Sources */,
+				16EBAB6F1BCA988F0091DC8C /* ShoppingTableViewCell.m in Sources */,
 				16EB16D11BC8336000E78944 /* AppDelegate.m in Sources */,
 				16EB17101BC90D0800E78944 /* HomeView.m in Sources */,
 				16EB16CE1BC8336000E78944 /* main.m in Sources */,
 				16EB170B1BC8366200E78944 /* HomeViewController.m in Sources */,
+				164811A61BC96B670063E237 /* ANYViewController.m in Sources */,
 				16EB17171BC90E4600E78944 /* Utilities.m in Sources */,
 				164811A31BC963530063E237 /* ShoppingViewController.m in Sources */,
 			);
